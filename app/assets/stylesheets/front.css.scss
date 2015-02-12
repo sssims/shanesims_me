@@ -30,4 +30,50 @@ body {
   font-size: 18pt;
 }
 
+  /* divider styles */
+
+#personal > #photo {
+  float: left;
+
+  height: 300px;
+  width: 200px;
+  background-color: #2C50A2;
+}
+
+#personal > #info {
+  float: left;  
+
+  height: 300px;
+  width: 200px;
+  background-color: #2B5464;
+}
+
+#desc {
+  background-color: #A10000;
+  height: 500px;
+  width: 80%;
+}
+
+.centered-div {
+  display: table;
+  margin: 0 auto;
+}
+
+.divider {
+
+  height: 1px;
+  width: 90%;
+  background-color: black;
+
+  display: table;
+  margin: 10px auto;
+
+} 
+
+
+
+
+
+
+
 /* ----- */
