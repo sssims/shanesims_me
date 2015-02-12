@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+/* site-wide theme styles */
+
+  /* text styles */
+
+.heading-text {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
+.body-text {
+  font-family: "Computer Modern", serif;
+}

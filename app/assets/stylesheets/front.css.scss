@@ -11,16 +11,25 @@ body {
   margin-top: 48px;
 }
 
+  /* structure classes */
+
+.centered-div {
+  display: table;
+  margin: 0 auto;
+}
+
+ 
+.divider {
+  height: 1px;
+  width: 90%;
+  background-color: black;
+
+  display: table;
+  margin: 0 auto;
+
+} 
+
   /* text styles */
-
-.heading-text {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 300;
-}
-
-.body-text {
-
-}
 
 #title {
   font-size: 36pt;
@@ -31,42 +40,40 @@ body {
 }
 
   /* divider styles */
+#header {
+  margin-bottom: 24px;
+}
+
+#personal {
+   margin: 12px auto;
+}
 
 #personal > #photo {
-  float: left;
-  width: 203px;
+  display: inline-block;
+  width: 203px; // same as contained photo.
 
-  margin: 0 16px;
+  margin: 8px auto;
+  padding: 0 16px;
+
+  //min-width: 220px; 
+  //width: 40%;
 }
 
 #personal > #info {
-  float: left;
-  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  width: 400px;
 
-  margin: 0 16px;
+  margin: 8px auto;
+  padding: 0 16px;
+
+  //width: 60%;
 }
 
 #desc {
   background-color: #A10000;
-  height: 500px;
-  width: 80%;
+  margin: 16px auto;
 }
-
-.centered-div {
-  display: table;
-  margin: 0 auto;
-}
-
-.divider {
-
-  height: 1px;
-  width: 90%;
-  background-color: black;
-
-  display: table;
-  margin: 24px auto;
-
-} 
 
 
 
