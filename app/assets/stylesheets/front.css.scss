@@ -34,18 +34,16 @@ body {
 
 #personal > #photo {
   float: left;
+  width: 203px;
 
-  height: 300px;
-  width: 200px;
-  background-color: #2C50A2;
+  margin: 0 16px;
 }
 
 #personal > #info {
-  float: left;  
+  float: left;
+  width: 300px;
 
-  height: 300px;
-  width: 200px;
-  background-color: #2B5464;
+  margin: 0 16px;
 }
 
 #desc {
@@ -66,7 +64,7 @@ body {
   background-color: black;
 
   display: table;
-  margin: 10px auto;
+  margin: 24px auto;
 
 } 
 
