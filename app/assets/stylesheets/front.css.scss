@@ -1,0 +1,33 @@
+// Place all the styles related to the front controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* index */
+
+body {
+  background-color: #FFFFFF;
+  text-align: center;
+
+  margin-top: 48px;
+}
+
+  /* text styles */
+
+.heading-text {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
+.body-text {
+
+}
+
+#title {
+  font-size: 36pt;
+}
+
+#subtitle {
+  font-size: 18pt;
+}
+
+/* ----- */
