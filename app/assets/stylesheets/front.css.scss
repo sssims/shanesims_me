@@ -6,46 +6,36 @@
 
 body {
   background-color: #FFFFFF;
-  text-align: center;
 
   margin-top: 48px;
 }
 
+a {
+  display: block;
+}
+
+div {
+  overflow: hidden;
+}
+
   /* structure classes */
-
-.centered-div {
-  display: table;
-  margin: 0 auto;
-}
-
  
-.divider {
-  height: 1px;
-  width: 90%;
-  background-color: black;
+.span {
+  display: inline-block;
+  vertical-align: top;
 
-  display: table;
-  margin: 0 auto;
-
-} 
-
-  /* text styles */
-
-#title {
-  font-size: 36pt;
-}
-
-#subtitle {
-  font-size: 18pt;
+  margin: 8px auto;
+  padding: 0 16px;
 }
 
   /* divider styles */
-#header {
+#page-header {
   margin-bottom: 24px;
 }
 
 #personal {
    margin: 12px auto;
+   text-align: center;
 }
 
 #personal > #photo {
@@ -61,24 +51,68 @@ body {
 
 #personal > #info {
   display: inline-block;
+
   vertical-align: top;
-  width: 400px;
+  max-width: 400px;
 
   margin: 8px auto;
   padding: 0 16px;
 
+  text-align: left;
+ 
   //width: 60%;
 }
 
-#desc {
-  background-color: #A10000;
-  margin: 16px auto;
+#contact {
+  margin-top: 10px;
 }
 
+.skills {
+  margin-top: 10px;
+ 
+  max-width: 256px;
+}
 
+.skills-header {
+  margin-bottom: 4px;
+}
 
+#top-skills-header {
+  margin: 15px auto 2px 5%;
+}
 
+#top-skills-content {
+  margin: 12px auto;
+}
 
+/*
+#technical {
+  margin: 12px auto;
+}
 
+#technical > #skills {
+  display: inline-block;
+  vertical-align: top;
+
+  margin: 8px auto;
+  padding: 0 16px;
+}
+
+#skills-content > a {
+  display: block;
+}
+
+#technical > #languages {
+  display: inline-block;
+  vertical-align: top;
+
+  margin: 8px auto;
+  padding: 0 16px;
+}
+
+#lang-content > a {
+  display: block;
+}
+*/
 
 /* ----- */

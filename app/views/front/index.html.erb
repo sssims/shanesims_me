@@ -1,29 +1,75 @@
-<div id='header' class='centered-div'>
+<div id='page-header' class='centered-div centered-text'>
 
-  <div id='title' class='heading-text'>
+  <div id='page-title' class='large header-text'>
     <a>Shane Sims</a>
   </div>
 
-  <div id='subtitle' class='heading-text'>
+  <div id='page-subtitle' class='medium header-text'>
     <a>Software Engineer</a>
   </div>
 
 </div>
 
-<div class='divider'>
+<div class='page-divider'>
 </div>
-
 
 <div id='personal' class='centered-div'>
   <div id='photo'>
     <img src='me.jpg'>
   </div>
   <div id='info' class='body-text'>
-    <%= render :partial => 'personal_info', :layout => false %>
+    <div id='desc'>
+      <%= render :partial => 'personal_info', :layout => false %>
+    </div>
+    <div id='contact'>
+      <div id='contact-header' class='small header-text bold'>
+        <a>Contact</a>
+      </div>
+      <div class='div-divider'>
+      </div>
+      <div id='contact-content'>
+        <img src='email.jpg'>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class='divider'>
+<div id='top-skills-header'>
+  <div id='top-skills-title' class='medium header-text'>
+    <a>Top Skills</a>
+  </div>
+</div>
+
+<div class='page-divider'>
+</div>
+
+<div id='top-skills-content' class='centered-div body-text'>
+  <div id='skill0' class='span skills'>
+    <div id='skill0-header' class='bold skills-header'>
+      <a>Databases and File Systems</a>
+    </div>
+    <div id='skill0-content'>
+       <a>Studied methodology and design of database query languages at University. Applied that knowledge at a chemical engineering firm by managing their application's databases (Microsoft Access - SQL based). Handled data entry / access and schema modifications both manually and programmatically. </a>
+       <a>2 years experience with software revision control (Git, Tortoise, ankhsvn). Well versed in all major operating systems' file system structure.</a>
+    </div>
+  </div>
+  <div id='skill1' class='span skills'>
+    <div id='skill1-header' class='bold skills-header'>
+      <a>Algorithms and Memory Management</a>
+    </div>
+    <div id='skill1-content'>
+      <a>Formally educated in algorithm analysis. Assymptotic growth rates; proof techniques; algorithm types: divide and conquer, dynamic programming, greedy, max-flow min-cut.</a>
+      <a>4 years experience in C programming; operating systems programming; compilers.</a>
+    </div>
+  </div>
+  <div id='skill2' class='span skills'>
+    <div id='skill2-header' class='bold skills-header'>
+      <a>Full Stack Web Development</a>
+    </div>
+    <div id='skill2-content'>
+      <a>Ruby on Rails: MVC structure. Designed / managed data storage (backend). Designed and implemented web page structure (front end). </a>
+    </div>
+  </div>
 </div>
 
 <div id='desc' class='centered-div'>
