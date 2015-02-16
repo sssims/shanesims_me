@@ -70,19 +70,36 @@ div {
 .skills {
   margin-top: 10px;
  
-  max-width: 256px;
+  max-width: 280px;
+  text-align: left;
 }
 
 .skills-header {
   margin-bottom: 4px;
 }
 
-#top-skills-header {
+.section-header {
   margin: 15px auto 2px 5%;
+  text-align: left;
 }
 
-#top-skills-content {
-  margin: 12px auto;
+#skills {
+  text-align: center;
+}
+
+#education-content {
+  margin: 8px 10%;
+  width: 90%;
+}
+
+#university > a {
+  margin: 3px auto;
+}
+
+#skills-content {
+  display: inline-block;
+  width: 90%;
+  margin: 8px auto;
 }
 
 /*
