@@ -79,6 +79,8 @@ div {
   margin: 8px auto;
   padding: 0 16px;
 
+  max-width: 650px;
+
   text-align: left; 
 }
 
@@ -94,6 +96,11 @@ div {
   margin-top: 10px;
  
   width: 270px;
+  text-align: left;
+}
+
+.skills-mobile {
+  margin-top: 10px;
   text-align: left;
 }
 
@@ -130,6 +137,12 @@ div {
 
 .work {
    margin-bottom: 16px;
+}
+
+.work-mobile {
+  margin-bottom: 16px;
+
+  width: 800px;
 }
 
 .work-header {
