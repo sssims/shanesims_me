@@ -2,6 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+/* NOTE: classes / ids ending with 'mobile' refer to the mobile version of the view.
+
+         web:   index.html.erb
+         mobile: mobile_index.html.erb
+  
+         Both views refer to this file as most styles are the same.
+*/
+
 /* index */
 
 body {
@@ -33,7 +41,51 @@ div {
   text-align: left;
 }
 
-  /* divider styles */
+    /* skills section */
+
+.skills {
+  margin-top: 10px;
+ 
+  width: 280px;
+  text-align: left;
+}
+
+.skills-mobile {
+  margin-top: 10px;
+
+  text-align: left;
+}
+
+.skills-header {
+  margin-bottom: 4px;
+}
+
+    /* work section */
+
+.work {
+   margin-bottom: 16px;
+}
+
+.work-mobile {
+  margin-bottom: 16px;
+
+  width: 800px;
+}
+
+.work-header {
+  margin-bottom: 6px;
+}
+
+.work-header > a {
+  margin: 2px auto;
+}
+
+.work-company {
+  font-size: 12pt;
+}
+
+/* id-specific styles. Ordered ~ from top to bottom of view. */
+
 #page-header {
   margin-bottom: 24px;
 }
@@ -96,22 +148,6 @@ div {
   margin: 3px 6px;
 }
 
-.skills {
-  margin-top: 10px;
- 
-  width: 280px;
-  text-align: left;
-}
-
-.skills-mobile {
-  margin-top: 10px;
-
-  text-align: left;
-}
-
-.skills-header {
-  margin-bottom: 4px;
-}
 
 #education-content, #work-content {
   margin: 12px 10%;
@@ -141,56 +177,3 @@ div {
   font-size: 11pt;
 }
 
-.work {
-   margin-bottom: 16px;
-}
-
-.work-mobile {
-  margin-bottom: 16px;
-
-  width: 800px;
-}
-
-.work-header {
-  margin-bottom: 6px;
-}
-
-.work-header > a {
-  margin: 2px auto;
-}
-
-.work-company {
-  font-size: 12pt;
-}
-
-/*
-#technical {
-  margin: 12px auto;
-}
-
-#technical > #skills {
-  display: inline-block;
-  vertical-align: top;
-
-  margin: 8px auto;
-  padding: 0 16px;
-}
-
-#skills-content > a {
-  display: block;
-}
-
-#technical > #languages {
-  display: inline-block;
-  vertical-align: top;
-
-  margin: 8px auto;
-  padding: 0 16px;
-}
-
-#lang-content > a {
-  display: block;
-}
-*/
-
-/* ----- */
