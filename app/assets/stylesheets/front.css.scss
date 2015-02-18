@@ -81,7 +81,8 @@ div {
   margin: 8px auto;
   padding: 0 16px;
 
-  text-align: left;
+  text-align: left; 
+  font-size: 11pt;
 }
 
 #contact {
@@ -121,6 +122,14 @@ div {
   width: 90%;
   margin: 12px auto;
 }
+
+#skills-content-mobile {
+  width: 90%;
+  margin: 12px auto;
+ 
+  font-size: 11pt;
+}
+
 .work {
    margin-bottom: 16px;
 }
