@@ -41,6 +41,12 @@ div {
   text-align: left;
 }
 
+    /* eductation section */
+ 
+.elective-section {
+  margin-bottom: 12px;
+}
+
     /* skills section */
 
 .skills {
@@ -148,7 +154,6 @@ div {
   margin: 3px 6px;
 }
 
-
 #education-content, #work-content {
   margin: 12px 10%;
   width: 90%;
@@ -158,6 +163,10 @@ div {
 
 #university > a {
   margin: 3px auto;
+}
+
+#electives {
+  margin-top: 12px;
 }
 
 #skills {
