@@ -28,6 +28,11 @@ div {
   padding: 0 16px;
 }
 
+.section-header {
+  margin: 15px auto 2px 5%;
+  text-align: left;
+}
+
   /* divider styles */
 #page-header {
   margin-bottom: 24px;
@@ -74,7 +79,7 @@ div {
 .skills {
   margin-top: 10px;
  
-  width: 280px;
+  width: 270px;
   text-align: left;
 }
 
@@ -82,17 +87,8 @@ div {
   margin-bottom: 4px;
 }
 
-.section-header {
-  margin: 15px auto 2px 5%;
-  text-align: left;
-}
-
-#skills {
-  text-align: center;
-}
-
-#education-content {
-  margin: 8px 10%;
+#education-content, #work-content {
+  margin: 12px 10%;
   width: 90%;
 }
 
@@ -100,10 +96,29 @@ div {
   margin: 3px auto;
 }
 
+#skills {
+  text-align: center;
+}
+
 #skills-content {
   display: inline-block;
   width: 90%;
-  margin: 8px auto;
+  margin: 12px auto;
+}
+.work {
+   margin-bottom: 16px;
+}
+
+.work-header {
+  margin-bottom: 6px;
+}
+
+.work-header > a {
+  margin: 2px auto;
+}
+
+.work-company {
+  font-size: 12pt;
 }
 
 /*
