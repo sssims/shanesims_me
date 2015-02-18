@@ -54,6 +54,13 @@ div {
   //width: 40%;
 }
 
+#personal > #photo-mobile {
+  width: 203px;
+  
+  margin: 8px auto;
+  padding: 0 16px;
+}
+
 #personal > #info {
   display: inline-block;
 
@@ -66,6 +73,15 @@ div {
   text-align: left;
  
   //width: 60%;
+}
+
+#personal > #info-mobile {
+  max-width: 400px;
+ 
+  margin: 8px auto;
+  padding: 0 16px;
+
+  text-align: left;
 }
 
 #contact {
