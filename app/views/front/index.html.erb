@@ -17,7 +17,11 @@
   <div id='photo'>
     <img src='me.jpg'>
   </div>
-  <div id='info' class='body-text'>
+  <% if @is_mobile_device %>
+    <div id='info-mobile' class='body-text'>
+  <% else %>
+    <div id='info' class='body-text'>
+  <% end %>
     <div id='desc'>
       <a>I am a 23 year old software engineer with 7 months experience in industry. At university I crafted a broad skillset, but haven't put many of those tools to use. I am currently searching for a position in the scientific/technical industry where I can contribute my skillset to something awesome.</a>
     </div>
