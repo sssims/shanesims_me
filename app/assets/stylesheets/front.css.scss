@@ -16,6 +16,8 @@ body {
   background-color: #FFFFFF;
 
   margin-top: 48px;
+
+  height: 100%;
 }
 
 a {
@@ -190,3 +192,33 @@ div {
   font-size: 11pt;
 }
 
+#footer {
+  position: absolute;
+  bottom: 0;
+ 
+  width: 90%;
+  height: 18px;
+
+  margin: 0 5%;
+  padding: 4px 0;
+
+  border-top: 1px solid black;
+
+  background-color: white;
+}
+
+#footer a {
+  display: inline-block;
+
+  position: absolute;
+
+  font-size: 9pt;
+}
+
+#footer #right-side {
+  right: 0;
+}
+
+#footer #left-side {
+  left: 0;
+}
